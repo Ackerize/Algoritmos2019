@@ -11,7 +11,13 @@ int potencia(int x, int n){
 
 int main()
 {
-    cout<<potencia(2,5);
+    int x, n;
+    cout << "Ingrese la base: ";
+    cin >> x;
+    cout << "Ingrese el exponente: ";
+    cin >> n;
+    cout << "El resultado es: " << potencia(x,n);
 
     return 0;
 }
+
